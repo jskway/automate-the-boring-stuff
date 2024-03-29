@@ -11,6 +11,7 @@
   and, or, not
 
 3. Write out the truth tables of each Boolean operator (that is, every possible combination of Boolean values for the operator and what they evaluate to).
+
   | Expression          | Evaluates to...   |
   | ------------------ |:-----------------:|
   | True and True      | True              |

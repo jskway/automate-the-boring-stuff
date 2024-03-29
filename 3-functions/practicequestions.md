@@ -32,6 +32,7 @@
    expression is used with a return statement, the return value is what this
    expession evaluates to.
 
+
 8. If a function does not have a return statement, what is the return value of a call to that function?
 
   `None`
