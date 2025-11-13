@@ -1,8 +1,11 @@
 def hello():
-    print('Howdy!')
-    print('Howdy!!!')
-    print('Hello there.!')
+    # Prints three greetings
+    print("Good morning!")
+    print("Good afternoon!")
+    print("Good evening!")
+
 
 hello()
 hello()
+print("ONE MORE TIME!")
 hello()
