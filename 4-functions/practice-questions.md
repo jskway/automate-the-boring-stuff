@@ -70,23 +70,3 @@ print(get_random_dice_roll())
 print(get_random_dice_roll())
 
 Each function call returns the same number because random_number is a global variable assigned a value once, and each function call just uses the global variable.
-
-
-
-def collatz(number):
-    if number % 2 === 0:
-        print(number // 2, sep='')
-        return number // 2
-    else
-        print(3 * number + 1, sep='')
-        return 3 * number + 1
-
-def collatz_sequence():
-    print('Enter an integer:')
-    user_int = int(input('>'))
-
-    current = 0
-    while current != 1:
-        current = collatz(user_int)
-
-

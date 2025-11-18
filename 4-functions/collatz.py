@@ -3,8 +3,9 @@ def collatz(number):
         print(number // 2, sep='')
         return number // 2
     else:
-        print(3 * number + 1, sep='')
+        print(3 * number +1, sep='')
         return 3 * number + 1
+
 
 def collatz_sequence():
     try:
