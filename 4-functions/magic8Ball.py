@@ -25,4 +25,4 @@ print('Ask a yes or no question:')
 input('>')
 r = random.randint(1, 9)
 fortune = get_answer(r)
-print(fortune
+print(fortune)
